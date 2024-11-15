@@ -2,6 +2,7 @@
 public class Cheers {
         public static void main(String[] args) {
         String cheers=args[0];
+        cheers=cheers.toUpperCase();
         int times= Integer.parseInt(args[1]);
         int leneth=cheers.length();
         char a;

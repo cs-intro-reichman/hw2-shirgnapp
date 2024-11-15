@@ -11,7 +11,7 @@ public class Cheers {
                 a= cheers.charAt(i);
                 if(a=='A' || a=='E' || a== 'F' || a== 'H' || a== 'I' || a== 'L' || a== 'M' || a== 'N' || a== 'O' || a== 'R' ||  a== 'S' || a=='X')
                 {
-                        System.out.println("Give me an  " + a + ": " + a + "!");
+                        System.out.println("Give me an " + a + ": " + a + "!");
 
                 }
                 else

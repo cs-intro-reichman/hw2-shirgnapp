@@ -23,6 +23,7 @@ public class Cheers {
         {
                 System.out.println(cheers + "!!!");
         }
+        System.out.println("");
         
         
                

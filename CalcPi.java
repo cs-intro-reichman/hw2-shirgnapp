@@ -2,7 +2,6 @@
 public class CalcPi {
 	public static void main(String [] args) { 
 	   int Number=Integer.parseInt(args[0]);
-	   System.out.println("pi according to Java: " + Math.PI);
 	   double denominator=3;
 	   double fraction;
 	   double pi= 1;
@@ -20,6 +19,7 @@ public class CalcPi {
 		denominator+=2;
 	   }
 	   pi*=4.0;
-	   System.out.println("pi, approximated: " + pi);
+	   System.out.println("pi according to Java: " + Math.PI);
+	   System.out.println("pi, approximated:     " + pi);
 	}
 }
